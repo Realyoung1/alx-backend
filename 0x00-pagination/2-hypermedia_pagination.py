@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Hypermedia pagination """
+""" funcs tgat takes two ibta args and retuns a dica """
 import csv
 from math import ceil
 from typing import List, Tuple, Dict
