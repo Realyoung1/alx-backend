@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Simple pagination """
+""" funcs tgat takes two ibta args eith def value 1 """
 import csv
 import math
 from typing import List, Tuple
