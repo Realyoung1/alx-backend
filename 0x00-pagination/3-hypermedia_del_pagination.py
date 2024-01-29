@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Deletion-resilient hypermedia pagination
+funcs tgat takes two ibta args hypermedia pagination
 """
 
 import csv
