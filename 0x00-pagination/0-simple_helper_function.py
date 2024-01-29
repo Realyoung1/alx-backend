@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Range simple helper fun """
+""" funcs tgat takes two ibta args """
 from typing import Tuple
 
 
