@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" BaseCaching module
+""" i did cass LFUCache that inherits from BaseCaching
 """
 from base_caching import BaseCaching
 
