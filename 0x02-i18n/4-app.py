@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-using _ or gettext function to parametrize my templates
+Flask app
 """
 from flask import (
     Flask,
@@ -12,7 +12,7 @@ from flask_babel import Babel
 
 class Config(object):
     """
-    Configuring the Babel
+    Configuration for Babel
     """
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
@@ -29,6 +29,9 @@ def get_locale():
     """
     Select and return best language match based on supported languages
     """
+    loc = request.args.get('locale')
+    if loc in app.config['LANGUAGES']:
+        return loc
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
@@ -37,7 +40,7 @@ def index() -> str:
     """
     Handles / route
     """
-    return render_template('3-index.html')
+    return render_template('4-index.html')
 
 
 if __name__ == "__main__":
