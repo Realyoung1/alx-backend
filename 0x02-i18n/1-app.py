@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-instantiating the Babel object in my app 
+instantiating the Babel object in my app
 """
 from flask import (
     Flask,
