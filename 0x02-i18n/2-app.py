@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-instantiating the Babel object in my app
+get_locale function with the babel.localeselector decora
 """
 from flask import (
     Flask,
